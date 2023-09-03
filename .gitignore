@@ -33,6 +33,7 @@
 
 # Visual studio stuff
 .vs
+eeFunctionXll/x64/
 build/
 packages/
 graveyard/
