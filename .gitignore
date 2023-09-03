@@ -44,7 +44,7 @@ __pycache__
 .ipynb_checkpoints
 
 # External libraries
-/external/IF97/
+# /external/IF97/
 /docs/source/_build
 
 ~$*
