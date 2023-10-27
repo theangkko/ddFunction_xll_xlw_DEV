@@ -1,0 +1,8 @@
+D:\repo\eeFunction_XLW_DEV\MSIpackage\bin\x64\Debug\en-US\MSIpackage.msi
+D:\repo\eeFunction_XLW_DEV\MSIpackage\bin\x64\Debug\en-US\cab1.cab
+D:\repo\eeFunction_XLW_DEV\MSIpackage\bin\x64\Debug\en-US\MSIpackage.wixpdb
+D:\repo\eeFunction_XLW_DEV\MSIpackage\obj\x64\Debug\MSIpackage.wixproj.CoreCompileInputs.cache
+D:\repo\eeFunction_XLW_DEV\MSIpackage\obj\x64\Debug\en-US\cab1.cab
+D:\repo\eeFunction_XLW_DEV\MSIpackage\obj\x64\Debug\en-US\MSIpackage.msi
+D:\repo\eeFunction_XLW_DEV\MSIpackage\obj\x64\Debug\en-US\MSIpackage.wixpdb
+D:\repo\eeFunction_XLW_DEV\MSIpackage\obj\x64\Debug\MSIpackage.wixproj.BindTracking-en-US.txt

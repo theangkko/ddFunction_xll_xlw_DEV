@@ -29,4 +29,6 @@ int MyAdd(int x, int y);
 
 double eeSTMPTH(double p, double t);
 
+double eeSTMPHT(double p, double h);
+
 #endif

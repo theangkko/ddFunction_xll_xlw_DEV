@@ -30,5 +30,19 @@
     <ClInclude Include="cppinterface.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="unitconversion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseUnitConverter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="eeFunctionXLL.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
   </ItemGroup>
 </Project>

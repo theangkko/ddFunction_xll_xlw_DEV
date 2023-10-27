@@ -246,6 +246,61 @@ EXCEL_END
 
 //////////////////////////
 
+namespace
+{
+XLRegistration::Arg
+eeSTMPHTArgs[]=
+{
+{ "p","too lazy to comment this one ","B"},
+{ "h","too lazy to comment this one ","B"}
+};
+  XLRegistration::XLFunctionRegistrationHelper
+registereeSTMPHT("xleeSTMPHT",
+"eeSTMPHT",
+"too lazy to comment this function ",
+LibraryName,
+eeSTMPHTArgs,
+2
+,false
+,false
+,""
+,""
+,false
+,false
+,false
+);
+}
+
+
+
+extern "C"
+{
+LPXLFOPER EXCEL_EXPORT
+xleeSTMPHT(
+double p,
+double h)
+{
+EXCEL_BEGIN;
+
+	if (XlfExcel::Instance().IsCalledByFuncWiz())
+		return XlfOper(true);
+
+
+
+double result(
+	eeSTMPHT(
+		p,
+		h)
+	);
+return XlfOper(result);
+EXCEL_END
+}
+}
+
+
+
+//////////////////////////
+
 //////////////////////////
 // Methods that will get registered to execute in AutoOpen
 //////////////////////////
