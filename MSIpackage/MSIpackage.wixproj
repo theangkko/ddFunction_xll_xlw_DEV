@@ -1,4 +1,7 @@
 ﻿<Project Sdk="WixToolset.Sdk/4.0.2">
+  <PropertyGroup>
+    <Configurations>Debug;Release;Mixed Platform</Configurations>
+  </PropertyGroup>
   <ItemGroup>
     <ProjectReference Include="..\eeFunctionXLL\eeFunctionXLL.vcxproj" />
   </ItemGroup>

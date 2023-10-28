@@ -1,0 +1,14 @@
+D:\repo\eeFunction_XLW_DEV\InstallerCA\bin\Release\net472\CustomAction.config
+D:\repo\eeFunction_XLW_DEV\InstallerCA\bin\Release\net472\InstallerCA.dll
+D:\repo\eeFunction_XLW_DEV\InstallerCA\bin\Release\net472\InstallerCA.CA.dll
+D:\repo\eeFunction_XLW_DEV\InstallerCA\bin\Release\net472\InstallerCA.pdb
+D:\repo\eeFunction_XLW_DEV\InstallerCA\bin\Release\net472\WixToolset.Dtf.WindowsInstaller.dll
+D:\repo\eeFunction_XLW_DEV\InstallerCA\obj\Release\net472\InstallerCA.csproj.AssemblyReference.cache
+D:\repo\eeFunction_XLW_DEV\InstallerCA\obj\Release\net472\InstallerCA.GeneratedMSBuildEditorConfig.editorconfig
+D:\repo\eeFunction_XLW_DEV\InstallerCA\obj\Release\net472\InstallerCA.AssemblyInfoInputs.cache
+D:\repo\eeFunction_XLW_DEV\InstallerCA\obj\Release\net472\InstallerCA.AssemblyInfo.cs
+D:\repo\eeFunction_XLW_DEV\InstallerCA\obj\Release\net472\InstallerCA.csproj.CoreCompileInputs.cache
+D:\repo\eeFunction_XLW_DEV\InstallerCA\obj\Release\net472\InstallerCA.CA.rsp
+D:\repo\eeFunction_XLW_DEV\InstallerCA\obj\Release\net472\InstallerCA.csproj.CopyComplete
+D:\repo\eeFunction_XLW_DEV\InstallerCA\obj\Release\net472\InstallerCA.dll
+D:\repo\eeFunction_XLW_DEV\InstallerCA\obj\Release\net472\InstallerCA.pdb

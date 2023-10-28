@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "wpYzyKPb6PRQqrmfqA9PJGBO52wzXYJmFFRbTr1dA0+uJ6uoFxceoEXW53uvQt91BjFJeRn1ho9dXl73R5FfXw==",
+  "success": true,
+  "projectFilePath": "D:\\repo\\eeFunction_XLW_DEV\\InstallerCA\\InstallerCA.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\B660\\.nuget\\packages\\wixtoolset.dtf.customaction\\4.0.2\\wixtoolset.dtf.customaction.4.0.2.nupkg.sha512",
+    "C:\\Users\\B660\\.nuget\\packages\\wixtoolset.dtf.windowsinstaller\\4.0.2\\wixtoolset.dtf.windowsinstaller.4.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,5 +1,0 @@
-BuiltContentOutput	D:\repo\eeFunction_XLW_DEV\MSIpackage\obj\x64\Debug\en-US\cab1.cab
-BuiltPdbOutput	D:\repo\eeFunction_XLW_DEV\MSIpackage\obj\x64\Debug\en-US\MSIpackage.wixpdb
-BuiltTargetOutput	D:\repo\eeFunction_XLW_DEV\MSIpackage\obj\x64\Debug\en-US\MSIpackage.msi
-Input	ExampleComponents.wxs
-Intermediate	D:\repo\eeFunction_XLW_DEV\MSIpackage\obj\x64\Debug\en-US\cab1.cab

@@ -1,0 +1,12 @@
+BuiltPdbOutput	D:\repo\eeFunction_XLW_DEV\WixSetupBundle\obj\x64\Debug\WixSetupBundle.wixpdb
+BuiltTargetOutput	D:\repo\eeFunction_XLW_DEV\WixSetupBundle\obj\x64\Debug\WixSetupBundle.exe
+Input	C:\Users\B660\.nuget\packages\wixtoolset.bal.wixext\4.0.2\wixext4\WixToolset.Bal.wixext.dll
+Input	D:\repo\eeFunction_XLW_DEV\WixMSIpackage\bin\x64\Debug\en-us\WixMSIpackage.msi
+Input	D:\repo\eeFunction_XLW_DEV\WixSetupBundle\obj\x64\Debug\WixToolset.Bal.wixext_ylpIcyBT_Ux_DwM-v9eQtw1xXhk\wix-ir\RtfTheme.wxl
+Input	D:\repo\eeFunction_XLW_DEV\WixSetupBundle\obj\x64\Debug\WixToolset.Bal.wixext_ylpIcyBT_Ux_DwM-v9eQtw1xXhk\wix-ir\RtfTheme.xml
+Input	D:\repo\eeFunction_XLW_DEV\WixSetupBundle\obj\x64\Debug\WixToolset.Bal.wixext_ylpIcyBT_Ux_DwM-v9eQtw1xXhk\wix-ir\wixstdba.dll-1
+Input	Resources\EULA.rtf
+Input	Resources\Icon.ico
+Intermediate	D:\repo\eeFunction_XLW_DEV\WixSetupBundle\obj\x64\Debug\WixToolset.Bal.wixext_ylpIcyBT_Ux_DwM-v9eQtw1xXhk\wix-ir\RtfTheme.wxl
+Intermediate	D:\repo\eeFunction_XLW_DEV\WixSetupBundle\obj\x64\Debug\WixToolset.Bal.wixext_ylpIcyBT_Ux_DwM-v9eQtw1xXhk\wix-ir\RtfTheme.xml
+Intermediate	D:\repo\eeFunction_XLW_DEV\WixSetupBundle\obj\x64\Debug\WixToolset.Bal.wixext_ylpIcyBT_Ux_DwM-v9eQtw1xXhk\wix-ir\wixstdba.dll-1

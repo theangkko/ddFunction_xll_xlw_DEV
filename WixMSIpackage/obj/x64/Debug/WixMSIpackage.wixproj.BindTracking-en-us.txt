@@ -1,0 +1,16 @@
+BuiltPdbOutput	D:\repo\eeFunction_XLW_DEV\WixMSIpackage\obj\x64\Debug\en-us\WixMSIpackage.wixpdb
+BuiltTargetOutput	D:\repo\eeFunction_XLW_DEV\WixMSIpackage\obj\x64\Debug\en-us\WixMSIpackage.msi
+Input	C:\Users\B660\.nuget\packages\wixtoolset.netfx.wixext\4.0.2\wixext4\WixToolset.Netfx.wixext.dll
+Input	C:\Users\B660\.nuget\packages\wixtoolset.ui.wixext\4.0.2\wixext4\WixToolset.UI.wixext.dll
+Input	D:\repo\eeFunction_XLW_DEV\InstallerCA\bin\Debug\net472\InstallerCA.CA.dll
+Input	D:\repo\eeFunction_XLW_DEV\\BundleSource\xll64-packed.xll
+Input	Resources\Banner.jpg
+Input	Resources\Dialog.jpg
+Input	Resources\Icon.ico
+Intermediate	D:\repo\eeFunction_XLW_DEV\WixMSIpackage\obj\x64\Debug\en-us\#cab1.cab
+Intermediate	D:\repo\eeFunction_XLW_DEV\WixMSIpackage\obj\x64\Debug\en-us\WixToolset.Netfx.wixext_JBL28YW7lOeFJZC2wSOqN4lRCDA\wix-ir\netfxca.dll-1
+Intermediate	D:\repo\eeFunction_XLW_DEV\WixMSIpackage\obj\x64\Debug\en-us\WixToolset.UI.wixext__XXUaEZIw-iEu23HHxpMyHqCwnE\wix-ir\exclamic.ico
+Intermediate	D:\repo\eeFunction_XLW_DEV\WixMSIpackage\obj\x64\Debug\en-us\WixToolset.UI.wixext__XXUaEZIw-iEu23HHxpMyHqCwnE\wix-ir\info.ico
+Intermediate	D:\repo\eeFunction_XLW_DEV\WixMSIpackage\obj\x64\Debug\en-us\WixToolset.UI.wixext__XXUaEZIw-iEu23HHxpMyHqCwnE\wix-ir\new.ico
+Intermediate	D:\repo\eeFunction_XLW_DEV\WixMSIpackage\obj\x64\Debug\en-us\WixToolset.UI.wixext__XXUaEZIw-iEu23HHxpMyHqCwnE\wix-ir\uica.dll-1
+Intermediate	D:\repo\eeFunction_XLW_DEV\WixMSIpackage\obj\x64\Debug\en-us\WixToolset.UI.wixext__XXUaEZIw-iEu23HHxpMyHqCwnE\wix-ir\up.ico

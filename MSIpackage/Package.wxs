@@ -1,5 +1,5 @@
 ﻿<Wix xmlns="http://wixtoolset.org/schemas/v4/wxs">
-  <Package Name="MSIpackage" Manufacturer="theangkko.github.io" Version="1.0.0.0" UpgradeCode="50103d93-69b2-4601-9a20-ba943b95317f">
+  <Package Name="MSIpackage" Manufacturer="eeFunction" Version="1.0.0.0" UpgradeCode="50103d93-69b2-4601-9a20-ba943b95317f">
     <MajorUpgrade DowngradeErrorMessage="!(loc.DowngradeError)" />
 
     <Feature Id="Main">

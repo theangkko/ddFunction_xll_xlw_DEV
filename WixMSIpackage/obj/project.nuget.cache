@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "GTMkuygPjFboR6NZ33/p2g7aOyfuxeiRtzu91JWo0QZxOyBwHJ7y18f1ZKDbUZD/q4JmX6DyfNWPKM6bipTD6w==",
+  "success": true,
+  "projectFilePath": "D:\\repo\\eeFunction_XLW_DEV\\WixMSIpackage\\WixMSIpackage.wixproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\B660\\.nuget\\packages\\wixtoolset.netfx.wixext\\4.0.2\\wixtoolset.netfx.wixext.4.0.2.nupkg.sha512",
+    "C:\\Users\\B660\\.nuget\\packages\\wixtoolset.ui.wixext\\4.0.2\\wixtoolset.ui.wixext.4.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

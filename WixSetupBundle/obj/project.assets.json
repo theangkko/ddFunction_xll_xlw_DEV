@@ -1,0 +1,127 @@
+{
+  "version": 3,
+  "targets": {
+    "native,Version=v0.0": {
+      "WixToolset.Bal.wixext/4.0.2": {
+        "type": "package",
+        "build": {
+          "build/WixToolset.Bal.wixext.targets": {}
+        }
+      }
+    },
+    "native,Version=v0.0/win": {
+      "WixToolset.Bal.wixext/4.0.2": {
+        "type": "package",
+        "build": {
+          "build/WixToolset.Bal.wixext.targets": {}
+        }
+      }
+    },
+    "native,Version=v0.0/win-arm64": {
+      "WixToolset.Bal.wixext/4.0.2": {
+        "type": "package",
+        "build": {
+          "build/WixToolset.Bal.wixext.targets": {}
+        }
+      }
+    },
+    "native,Version=v0.0/win-x64": {
+      "WixToolset.Bal.wixext/4.0.2": {
+        "type": "package",
+        "build": {
+          "build/WixToolset.Bal.wixext.targets": {}
+        }
+      }
+    },
+    "native,Version=v0.0/win-x86": {
+      "WixToolset.Bal.wixext/4.0.2": {
+        "type": "package",
+        "build": {
+          "build/WixToolset.Bal.wixext.targets": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "WixToolset.Bal.wixext/4.0.2": {
+      "sha512": "OyPF8rsEOAQQFn+EWm+15dAvWTV769sJQdJ2lHHtvm5NmilhQh9Oq4aVNEfAsM95moRov7g6t2WkfsPilBKp6w==",
+      "type": "package",
+      "path": "wixtoolset.bal.wixext/4.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/WixToolset.Bal.wixext.targets",
+        "wix.png",
+        "wixext4/WixToolset.Bal.wixext.dll",
+        "wixtoolset.bal.wixext.4.0.2.nupkg.sha512",
+        "wixtoolset.bal.wixext.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "native,Version=v0.0": [
+      "WixToolset.Bal.wixext >= 4.0.2"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\B660\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\repo\\eeFunction_XLW_DEV\\WixSetupBundle\\WixSetupBundle.wixproj",
+      "projectName": "WixSetupBundle",
+      "projectPath": "D:\\repo\\eeFunction_XLW_DEV\\WixSetupBundle\\WixSetupBundle.wixproj",
+      "packagesPath": "C:\\Users\\B660\\.nuget\\packages\\",
+      "outputPath": "D:\\repo\\eeFunction_XLW_DEV\\WixSetupBundle\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\B660\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "native"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "native": {
+          "targetAlias": "native",
+          "projectReferences": {}
+        }
+      }
+    },
+    "frameworks": {
+      "native": {
+        "targetAlias": "native",
+        "dependencies": {
+          "WixToolset.Bal.wixext": {
+            "target": "Package",
+            "version": "[4.0.2, )"
+          }
+        }
+      }
+    },
+    "runtimes": {
+      "win": {
+        "#import": []
+      },
+      "win-arm64": {
+        "#import": []
+      },
+      "win-x64": {
+        "#import": []
+      },
+      "win-x86": {
+        "#import": []
+      }
+    }
+  }
+}

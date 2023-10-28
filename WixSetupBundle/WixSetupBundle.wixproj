@@ -1,0 +1,22 @@
+﻿<Project Sdk="WixToolset.Sdk/4.0.2">
+  <PropertyGroup>
+    <OutputType>Bundle</OutputType>
+    <Configurations>Debug;Release;Mixed Platform</Configurations>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutputPath>$(SolutionDir)\setup_pack\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mixed Platform|x64'">
+    <OutputPath>$(SolutionDir)\setup_pack\</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="Resources\EULA.rtf" />
+    <Content Include="Resources\Icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="WixToolset.Bal.wixext" Version="4.0.2" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\WixMSIpackage\WixMSIpackage.wixproj" />
+  </ItemGroup>
+</Project>

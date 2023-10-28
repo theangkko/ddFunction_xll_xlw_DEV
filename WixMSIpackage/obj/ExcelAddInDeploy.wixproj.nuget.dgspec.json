@@ -1,0 +1,69 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\repo\\wixinstaller_tgfuncxll_tg2\\src\\ExcelAddInDeploy\\ExcelAddInDeploy.wixproj": {}
+  },
+  "projects": {
+    "D:\\repo\\wixinstaller_tgfuncxll_tg2\\src\\ExcelAddInDeploy\\ExcelAddInDeploy.wixproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\repo\\wixinstaller_tgfuncxll_tg2\\src\\ExcelAddInDeploy\\ExcelAddInDeploy.wixproj",
+        "projectName": "ExcelAddInDeploy",
+        "projectPath": "D:\\repo\\wixinstaller_tgfuncxll_tg2\\src\\ExcelAddInDeploy\\ExcelAddInDeploy.wixproj",
+        "packagesPath": "C:\\Users\\B660\\.nuget\\packages\\",
+        "outputPath": "D:\\repo\\wixinstaller_tgfuncxll_tg2\\src\\ExcelAddInDeploy\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\B660\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "native"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "native": {
+            "targetAlias": "native",
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "native": {
+          "targetAlias": "native",
+          "dependencies": {
+            "WixToolset.NetFx.wixext": {
+              "target": "Package",
+              "version": "[4.0.0, )"
+            },
+            "WixToolset.UI.wixext": {
+              "target": "Package",
+              "version": "[4.0.0, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-arm64": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

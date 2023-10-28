@@ -1,0 +1,6 @@
+D:\repo\eeFunction_XLW_DEV\setup_pack\WixSetupBundle.exe
+D:\repo\eeFunction_XLW_DEV\setup_pack\WixSetupBundle.wixpdb
+D:\repo\eeFunction_XLW_DEV\WixSetupBundle\obj\x64\Debug\WixSetupBundle.wixproj.CoreCompileInputs.cache
+D:\repo\eeFunction_XLW_DEV\WixSetupBundle\obj\x64\Debug\WixSetupBundle.exe
+D:\repo\eeFunction_XLW_DEV\WixSetupBundle\obj\x64\Debug\WixSetupBundle.wixpdb
+D:\repo\eeFunction_XLW_DEV\WixSetupBundle\obj\x64\Debug\WixSetupBundle.wixproj.BindTracking.txt

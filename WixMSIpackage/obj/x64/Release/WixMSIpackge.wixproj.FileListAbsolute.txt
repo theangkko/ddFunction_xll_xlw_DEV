@@ -1,0 +1,6 @@
+D:\repo\eeFunction_XLW_DEV\WixMSIpackage\bin\x64\Release\en-us\WixMSIpackge.msi
+D:\repo\eeFunction_XLW_DEV\WixMSIpackage\bin\x64\Release\en-us\WixMSIpackge.wixpdb
+D:\repo\eeFunction_XLW_DEV\WixMSIpackage\obj\x64\Release\WixMSIpackge.wixproj.CoreCompileInputs.cache
+D:\repo\eeFunction_XLW_DEV\WixMSIpackage\obj\x64\Release\en-us\WixMSIpackge.msi
+D:\repo\eeFunction_XLW_DEV\WixMSIpackage\obj\x64\Release\en-us\WixMSIpackge.wixpdb
+D:\repo\eeFunction_XLW_DEV\WixMSIpackage\obj\x64\Release\WixMSIpackge.wixproj.BindTracking-en-us.txt
