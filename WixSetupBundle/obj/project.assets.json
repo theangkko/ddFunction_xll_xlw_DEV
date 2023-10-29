@@ -70,11 +70,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\repo\\eeFunction_XLW_DEV\\WixSetupBundle\\WixSetupBundle.wixproj",
+      "projectUniqueName": "D:\\repo\\eeFunction_xll_XLW_DEV\\WixSetupBundle\\WixSetupBundle.wixproj",
       "projectName": "WixSetupBundle",
-      "projectPath": "D:\\repo\\eeFunction_XLW_DEV\\WixSetupBundle\\WixSetupBundle.wixproj",
+      "projectPath": "D:\\repo\\eeFunction_xll_XLW_DEV\\WixSetupBundle\\WixSetupBundle.wixproj",
       "packagesPath": "C:\\Users\\B660\\.nuget\\packages\\",
-      "outputPath": "D:\\repo\\eeFunction_XLW_DEV\\WixSetupBundle\\obj\\",
+      "outputPath": "D:\\repo\\eeFunction_xll_XLW_DEV\\WixSetupBundle\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

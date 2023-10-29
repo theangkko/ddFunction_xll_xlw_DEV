@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "aD0d8i4QHLMRCBt8j27nPH8mAt3P6/0EWxFu6sfmm0luBOgn9gwwIJof5DgsCmyQBsJRnQpWUkIsH7bbTHk2Ag==",
+  "dgSpecHash": "t8FF/WYsbnleu7VKrI4Mnjxm2gM3fSDBwnAZeMaVkDTFJNf2XfVx0OkvGxerTogvZugb5YalEdUJ5j/ZKPYfjQ==",
   "success": true,
-  "projectFilePath": "D:\\repo\\eeFunction_XLW_DEV\\WixSetupBundle\\WixSetupBundle.wixproj",
+  "projectFilePath": "D:\\repo\\eeFunction_xll_XLW_DEV\\WixSetupBundle\\WixSetupBundle.wixproj",
   "expectedPackageFiles": [
     "C:\\Users\\B660\\.nuget\\packages\\wixtoolset.bal.wixext\\4.0.2\\wixtoolset.bal.wixext.4.0.2.nupkg.sha512"
   ],

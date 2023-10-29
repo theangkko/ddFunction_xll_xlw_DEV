@@ -21,9 +21,6 @@
     <ClCompile Include="IF97.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="source.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="cppinterface.h">

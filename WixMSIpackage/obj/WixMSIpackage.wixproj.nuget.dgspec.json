@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\repo\\eeFunction_XLW_DEV\\WixMSIpackage\\WixMSIpackage.wixproj": {}
+    "D:\\repo\\eeFunction_xll_XLW_DEV\\WixMSIpackage\\WixMSIpackage.wixproj": {}
   },
   "projects": {
-    "D:\\repo\\eeFunction_XLW_DEV\\WixMSIpackage\\WixMSIpackage.wixproj": {
+    "D:\\repo\\eeFunction_xll_XLW_DEV\\WixMSIpackage\\WixMSIpackage.wixproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\repo\\eeFunction_XLW_DEV\\WixMSIpackage\\WixMSIpackage.wixproj",
+        "projectUniqueName": "D:\\repo\\eeFunction_xll_XLW_DEV\\WixMSIpackage\\WixMSIpackage.wixproj",
         "projectName": "WixMSIpackage",
-        "projectPath": "D:\\repo\\eeFunction_XLW_DEV\\WixMSIpackage\\WixMSIpackage.wixproj",
+        "projectPath": "D:\\repo\\eeFunction_xll_XLW_DEV\\WixMSIpackage\\WixMSIpackage.wixproj",
         "packagesPath": "C:\\Users\\B660\\.nuget\\packages\\",
-        "outputPath": "D:\\repo\\eeFunction_XLW_DEV\\WixMSIpackage\\obj\\",
+        "outputPath": "D:\\repo\\eeFunction_xll_XLW_DEV\\WixMSIpackage\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

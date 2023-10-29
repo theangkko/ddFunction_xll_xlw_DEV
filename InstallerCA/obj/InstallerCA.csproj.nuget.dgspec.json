@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\repo\\eeFunction_XLW_DEV\\InstallerCA\\InstallerCA.csproj": {}
+    "D:\\repo\\eeFunction_xll_XLW_DEV\\InstallerCA\\InstallerCA.csproj": {}
   },
   "projects": {
-    "D:\\repo\\eeFunction_XLW_DEV\\InstallerCA\\InstallerCA.csproj": {
+    "D:\\repo\\eeFunction_xll_XLW_DEV\\InstallerCA\\InstallerCA.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\repo\\eeFunction_XLW_DEV\\InstallerCA\\InstallerCA.csproj",
+        "projectUniqueName": "D:\\repo\\eeFunction_xll_XLW_DEV\\InstallerCA\\InstallerCA.csproj",
         "projectName": "InstallerCA",
-        "projectPath": "D:\\repo\\eeFunction_XLW_DEV\\InstallerCA\\InstallerCA.csproj",
+        "projectPath": "D:\\repo\\eeFunction_xll_XLW_DEV\\InstallerCA\\InstallerCA.csproj",
         "packagesPath": "C:\\Users\\B660\\.nuget\\packages\\",
-        "outputPath": "D:\\repo\\eeFunction_XLW_DEV\\InstallerCA\\obj\\",
+        "outputPath": "D:\\repo\\eeFunction_xll_XLW_DEV\\InstallerCA\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
