@@ -20,13 +20,14 @@ short // echoes a short
 EchoShort(short x // number to be echoed
        );
 
+
 MyMatrix // Transpose a matrix
 MyTranspose(MyMatrix input // input matrix
 );
 
-
-int MyAdd(int x, int y);
-
 double eeSTMPTH(double p, double t);
+
+
+
 
 #endif

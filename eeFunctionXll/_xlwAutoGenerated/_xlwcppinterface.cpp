@@ -135,65 +135,6 @@ EXCEL_END
 namespace
 {
 XLRegistration::Arg
-MyAddArgs[]=
-{
-{ "x","too lazy to comment this one ","B"},
-{ "y","too lazy to comment this one ","B"}
-};
-  XLRegistration::XLFunctionRegistrationHelper
-registerMyAdd("xlMyAdd",
-"MyAdd",
-"too lazy to comment this function ",
-LibraryName,
-MyAddArgs,
-2
-,false
-,false
-,""
-,""
-,false
-,false
-,false
-);
-}
-
-
-
-extern "C"
-{
-LPXLFOPER EXCEL_EXPORT
-xlMyAdd(
-double xa,
-double ya)
-{
-EXCEL_BEGIN;
-
-	if (XlfExcel::Instance().IsCalledByFuncWiz())
-		return XlfOper(true);
-
-int x(
-	static_cast<int>(xa));
-
-int y(
-	static_cast<int>(ya));
-
-int result(
-	MyAdd(
-		x,
-		y)
-	);
-return XlfOper(result);
-EXCEL_END
-}
-}
-
-
-
-//////////////////////////
-
-namespace
-{
-XLRegistration::Arg
 eeSTMPTHArgs[]=
 {
 { "p","too lazy to comment this one ","B"},

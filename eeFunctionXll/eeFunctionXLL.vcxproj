@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <Import Project="..\packages\xlw.20.8.16-DEVd0cc\build\xlw.props" Condition="Exists('..\packages\xlw.20.8.16-DEVd0cc\build\xlw.props')" />
+  <Import Project="..\packages\xlw.23.10.12-rc\build\xlw.props" Condition="Exists('..\packages\xlw.23.10.12-rc\build\xlw.props')" />
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
       <Configuration>Debug</Configuration>
@@ -130,10 +130,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <None Include="packages.config" />
-    <None Include="xlwInterfaceDef.props" />
-  </ItemGroup>
-  <ItemGroup>
     <ClCompile Include="IF97.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -142,12 +138,16 @@
   <ItemGroup>
     <ClInclude Include="cppinterface.h" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="xlwInterfaceDef.props" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
       <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
     </PropertyGroup>
-    <Error Condition="!Exists('..\packages\xlw.20.8.16-DEVd0cc\build\xlw.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\xlw.20.8.16-DEVd0cc\build\xlw.props'))" />
+    <Error Condition="!Exists('..\packages\xlw.23.10.12-rc\build\xlw.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\xlw.23.10.12-rc\build\xlw.props'))" />
   </Target>
 </Project>
