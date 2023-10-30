@@ -123,7 +123,7 @@ double eeSteamHPQ(double p, double drynessX)
 // parameter (Name = "temperature", Description = "'C") 
 double eeSteamVPT(double p, double t)
 {
-	double tmp = rhomass_Tp(t + 273.15, p * 1e5);
+	double tmp = 1/ rhomass_Tp(t + 273.15, p * 1e5);
 	return tmp;
 }
 
