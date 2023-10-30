@@ -13,59 +13,59 @@ using namespace xlw;
 
 //<xlw:libraryname=MyTestLibrary
 
-std::string eeCheckVersion();
+std::string ddCheckVersion();
 
-double eeSteamTP(double p);
+double ddSteamTP(double p);
 
-double eeSteamTPH(double p, double h);
+double ddSteamTPH(double p, double h);
 
-double eeSteamTPS(double p, double s);
+double ddSteamTPS(double p, double s);
 
-double eeSteamTHS(double h, double s);
+double ddSteamTHS(double h, double s);
 
-double eeSteamPT(double t);
+double ddSteamPT(double t);
 
-double eeSteamHPT(double p, double t);
+double ddSteamHPT(double p, double t);
 
-double eeSteamHPS(double p, double s);
+double ddSteamHPS(double p, double s);
 
-double eeSteamHPQ(double p, double drynessX);
+double ddSteamHPQ(double p, double drynessX);
 
-double eeSteamVPT(double p, double t);
+double ddSteamVPT(double p, double t);
 
-double eeSteamVPH(double p, double h);
+double ddSteamVPH(double p, double h);
 
-double eeSteamVPS(double p, double s);
+double ddSteamVPS(double p, double s);
 
-double eeSteamRhoPT(double p, double t);
+double ddSteamRhoPT(double p, double t);
 
-double eeSteamRhoPH(double p, double h);
+double ddSteamRhoPH(double p, double h);
 
-double eeSteamRhoPS(double p, double s);
+double ddSteamRhoPS(double p, double s);
 
-double eeSteamSPT(double p, double t);
+double ddSteamSPT(double p, double t);
 
-double eeSteamSPH(double p, double h);
+double ddSteamSPH(double p, double h);
 
-double eeSteamCpPT(double p, double t);
+double ddSteamCpPT(double p, double t);
 
-double eeSteamCpPH(double p, double h);
+double ddSteamCpPH(double p, double h);
 
-double eeSteamCvPT(double p, double t);
+double ddSteamCvPT(double p, double t);
 
-double eeSteamCvPH(double p, double h);
+double ddSteamCvPH(double p, double h);
 
-double eeSteamCvPS(double p, double s);
+double ddSteamCvPS(double p, double s);
 
-double eeSteamVisPT(double p, double t);
+double ddSteamVisPT(double p, double t);
 
-double eeSteamVisPH(double p, double h);
+double ddSteamVisPH(double p, double h);
 
-double eeSteamVisPS(double p, double s);
+double ddSteamVisPS(double p, double s);
 
-double eeSteamQPH(double p, double h);
+double ddSteamQPH(double p, double h);
 
-double eeSteamQPS(double p, double s);
+double ddSteamQPS(double p, double s);
 
 
 

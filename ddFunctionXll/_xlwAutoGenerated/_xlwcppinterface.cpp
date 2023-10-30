@@ -25,8 +25,8 @@ const char* LibraryName = "MyTestLibrary";
 namespace
 {
   XLRegistration::XLFunctionRegistrationHelper
-registereeCheckVersion("xleeCheckVersion",
-"eeCheckVersion",
+registerddCheckVersion("xlddCheckVersion",
+"ddCheckVersion",
 "too lazy to comment this function ",
 LibraryName,
 0,
@@ -46,7 +46,7 @@ LibraryName,
 extern "C"
 {
 LPXLFOPER EXCEL_EXPORT
-xleeCheckVersion(
+xlddCheckVersion(
 )
 {
 EXCEL_BEGIN;
@@ -55,7 +55,7 @@ EXCEL_BEGIN;
 		return XlfOper(true);
 
 std::string result(
-	eeCheckVersion());
+	ddCheckVersion());
 return XlfOper(result);
 EXCEL_END
 }
@@ -68,16 +68,16 @@ EXCEL_END
 namespace
 {
 XLRegistration::Arg
-eeSteamTPArgs[]=
+ddSteamTPArgs[]=
 {
 { "p","too lazy to comment this one ","B"}
 };
   XLRegistration::XLFunctionRegistrationHelper
-registereeSteamTP("xleeSteamTP",
-"eeSteamTP",
+registerddSteamTP("xlddSteamTP",
+"ddSteamTP",
 "too lazy to comment this function ",
 LibraryName,
-eeSteamTPArgs,
+ddSteamTPArgs,
 1
 ,false
 ,false
@@ -94,7 +94,7 @@ eeSteamTPArgs,
 extern "C"
 {
 LPXLFOPER EXCEL_EXPORT
-xleeSteamTP(
+xlddSteamTP(
 double p)
 {
 EXCEL_BEGIN;
@@ -104,7 +104,7 @@ EXCEL_BEGIN;
 
 
 double result(
-	eeSteamTP(
+	ddSteamTP(
 		p)
 	);
 return XlfOper(result);
@@ -119,17 +119,17 @@ EXCEL_END
 namespace
 {
 XLRegistration::Arg
-eeSteamTPHArgs[]=
+ddSteamTPHArgs[]=
 {
 { "p","too lazy to comment this one ","B"},
 { "h","too lazy to comment this one ","B"}
 };
   XLRegistration::XLFunctionRegistrationHelper
-registereeSteamTPH("xleeSteamTPH",
-"eeSteamTPH",
+registerddSteamTPH("xlddSteamTPH",
+"ddSteamTPH",
 "too lazy to comment this function ",
 LibraryName,
-eeSteamTPHArgs,
+ddSteamTPHArgs,
 2
 ,false
 ,false
@@ -146,7 +146,7 @@ eeSteamTPHArgs,
 extern "C"
 {
 LPXLFOPER EXCEL_EXPORT
-xleeSteamTPH(
+xlddSteamTPH(
 double p,
 double h)
 {
@@ -158,7 +158,7 @@ EXCEL_BEGIN;
 
 
 double result(
-	eeSteamTPH(
+	ddSteamTPH(
 		p,
 		h)
 	);
@@ -174,17 +174,17 @@ EXCEL_END
 namespace
 {
 XLRegistration::Arg
-eeSteamTPSArgs[]=
+ddSteamTPSArgs[]=
 {
 { "p","too lazy to comment this one ","B"},
 { "s","too lazy to comment this one ","B"}
 };
   XLRegistration::XLFunctionRegistrationHelper
-registereeSteamTPS("xleeSteamTPS",
-"eeSteamTPS",
+registerddSteamTPS("xlddSteamTPS",
+"ddSteamTPS",
 "too lazy to comment this function ",
 LibraryName,
-eeSteamTPSArgs,
+ddSteamTPSArgs,
 2
 ,false
 ,false
@@ -201,7 +201,7 @@ eeSteamTPSArgs,
 extern "C"
 {
 LPXLFOPER EXCEL_EXPORT
-xleeSteamTPS(
+xlddSteamTPS(
 double p,
 double s)
 {
@@ -213,7 +213,7 @@ EXCEL_BEGIN;
 
 
 double result(
-	eeSteamTPS(
+	ddSteamTPS(
 		p,
 		s)
 	);
@@ -229,17 +229,17 @@ EXCEL_END
 namespace
 {
 XLRegistration::Arg
-eeSteamTHSArgs[]=
+ddSteamTHSArgs[]=
 {
 { "h","too lazy to comment this one ","B"},
 { "s","too lazy to comment this one ","B"}
 };
   XLRegistration::XLFunctionRegistrationHelper
-registereeSteamTHS("xleeSteamTHS",
-"eeSteamTHS",
+registerddSteamTHS("xlddSteamTHS",
+"ddSteamTHS",
 "too lazy to comment this function ",
 LibraryName,
-eeSteamTHSArgs,
+ddSteamTHSArgs,
 2
 ,false
 ,false
@@ -256,7 +256,7 @@ eeSteamTHSArgs,
 extern "C"
 {
 LPXLFOPER EXCEL_EXPORT
-xleeSteamTHS(
+xlddSteamTHS(
 double h,
 double s)
 {
@@ -268,7 +268,7 @@ EXCEL_BEGIN;
 
 
 double result(
-	eeSteamTHS(
+	ddSteamTHS(
 		h,
 		s)
 	);
@@ -284,16 +284,16 @@ EXCEL_END
 namespace
 {
 XLRegistration::Arg
-eeSteamPTArgs[]=
+ddSteamPTArgs[]=
 {
 { "t","too lazy to comment this one ","B"}
 };
   XLRegistration::XLFunctionRegistrationHelper
-registereeSteamPT("xleeSteamPT",
-"eeSteamPT",
+registerddSteamPT("xlddSteamPT",
+"ddSteamPT",
 "too lazy to comment this function ",
 LibraryName,
-eeSteamPTArgs,
+ddSteamPTArgs,
 1
 ,false
 ,false
@@ -310,7 +310,7 @@ eeSteamPTArgs,
 extern "C"
 {
 LPXLFOPER EXCEL_EXPORT
-xleeSteamPT(
+xlddSteamPT(
 double t)
 {
 EXCEL_BEGIN;
@@ -320,7 +320,7 @@ EXCEL_BEGIN;
 
 
 double result(
-	eeSteamPT(
+	ddSteamPT(
 		t)
 	);
 return XlfOper(result);
@@ -335,17 +335,17 @@ EXCEL_END
 namespace
 {
 XLRegistration::Arg
-eeSteamHPTArgs[]=
+ddSteamHPTArgs[]=
 {
 { "p","too lazy to comment this one ","B"},
 { "t","too lazy to comment this one ","B"}
 };
   XLRegistration::XLFunctionRegistrationHelper
-registereeSteamHPT("xleeSteamHPT",
-"eeSteamHPT",
+registerddSteamHPT("xlddSteamHPT",
+"ddSteamHPT",
 "too lazy to comment this function ",
 LibraryName,
-eeSteamHPTArgs,
+ddSteamHPTArgs,
 2
 ,false
 ,false
@@ -362,7 +362,7 @@ eeSteamHPTArgs,
 extern "C"
 {
 LPXLFOPER EXCEL_EXPORT
-xleeSteamHPT(
+xlddSteamHPT(
 double p,
 double t)
 {
@@ -374,7 +374,7 @@ EXCEL_BEGIN;
 
 
 double result(
-	eeSteamHPT(
+	ddSteamHPT(
 		p,
 		t)
 	);
@@ -390,17 +390,17 @@ EXCEL_END
 namespace
 {
 XLRegistration::Arg
-eeSteamHPSArgs[]=
+ddSteamHPSArgs[]=
 {
 { "p","too lazy to comment this one ","B"},
 { "s","too lazy to comment this one ","B"}
 };
   XLRegistration::XLFunctionRegistrationHelper
-registereeSteamHPS("xleeSteamHPS",
-"eeSteamHPS",
+registerddSteamHPS("xlddSteamHPS",
+"ddSteamHPS",
 "too lazy to comment this function ",
 LibraryName,
-eeSteamHPSArgs,
+ddSteamHPSArgs,
 2
 ,false
 ,false
@@ -417,7 +417,7 @@ eeSteamHPSArgs,
 extern "C"
 {
 LPXLFOPER EXCEL_EXPORT
-xleeSteamHPS(
+xlddSteamHPS(
 double p,
 double s)
 {
@@ -429,7 +429,7 @@ EXCEL_BEGIN;
 
 
 double result(
-	eeSteamHPS(
+	ddSteamHPS(
 		p,
 		s)
 	);
@@ -445,17 +445,17 @@ EXCEL_END
 namespace
 {
 XLRegistration::Arg
-eeSteamHPQArgs[]=
+ddSteamHPQArgs[]=
 {
 { "p","too lazy to comment this one ","B"},
 { "drynessX","too lazy to comment this one ","B"}
 };
   XLRegistration::XLFunctionRegistrationHelper
-registereeSteamHPQ("xleeSteamHPQ",
-"eeSteamHPQ",
+registerddSteamHPQ("xlddSteamHPQ",
+"ddSteamHPQ",
 "too lazy to comment this function ",
 LibraryName,
-eeSteamHPQArgs,
+ddSteamHPQArgs,
 2
 ,false
 ,false
@@ -472,7 +472,7 @@ eeSteamHPQArgs,
 extern "C"
 {
 LPXLFOPER EXCEL_EXPORT
-xleeSteamHPQ(
+xlddSteamHPQ(
 double p,
 double drynessX)
 {
@@ -484,7 +484,7 @@ EXCEL_BEGIN;
 
 
 double result(
-	eeSteamHPQ(
+	ddSteamHPQ(
 		p,
 		drynessX)
 	);
@@ -500,17 +500,17 @@ EXCEL_END
 namespace
 {
 XLRegistration::Arg
-eeSteamVPTArgs[]=
+ddSteamVPTArgs[]=
 {
 { "p","too lazy to comment this one ","B"},
 { "t","too lazy to comment this one ","B"}
 };
   XLRegistration::XLFunctionRegistrationHelper
-registereeSteamVPT("xleeSteamVPT",
-"eeSteamVPT",
+registerddSteamVPT("xlddSteamVPT",
+"ddSteamVPT",
 "too lazy to comment this function ",
 LibraryName,
-eeSteamVPTArgs,
+ddSteamVPTArgs,
 2
 ,false
 ,false
@@ -527,7 +527,7 @@ eeSteamVPTArgs,
 extern "C"
 {
 LPXLFOPER EXCEL_EXPORT
-xleeSteamVPT(
+xlddSteamVPT(
 double p,
 double t)
 {
@@ -539,7 +539,7 @@ EXCEL_BEGIN;
 
 
 double result(
-	eeSteamVPT(
+	ddSteamVPT(
 		p,
 		t)
 	);
@@ -555,17 +555,17 @@ EXCEL_END
 namespace
 {
 XLRegistration::Arg
-eeSteamVPHArgs[]=
+ddSteamVPHArgs[]=
 {
 { "p","too lazy to comment this one ","B"},
 { "h","too lazy to comment this one ","B"}
 };
   XLRegistration::XLFunctionRegistrationHelper
-registereeSteamVPH("xleeSteamVPH",
-"eeSteamVPH",
+registerddSteamVPH("xlddSteamVPH",
+"ddSteamVPH",
 "too lazy to comment this function ",
 LibraryName,
-eeSteamVPHArgs,
+ddSteamVPHArgs,
 2
 ,false
 ,false
@@ -582,7 +582,7 @@ eeSteamVPHArgs,
 extern "C"
 {
 LPXLFOPER EXCEL_EXPORT
-xleeSteamVPH(
+xlddSteamVPH(
 double p,
 double h)
 {
@@ -594,7 +594,7 @@ EXCEL_BEGIN;
 
 
 double result(
-	eeSteamVPH(
+	ddSteamVPH(
 		p,
 		h)
 	);
@@ -610,17 +610,17 @@ EXCEL_END
 namespace
 {
 XLRegistration::Arg
-eeSteamVPSArgs[]=
+ddSteamVPSArgs[]=
 {
 { "p","too lazy to comment this one ","B"},
 { "s","too lazy to comment this one ","B"}
 };
   XLRegistration::XLFunctionRegistrationHelper
-registereeSteamVPS("xleeSteamVPS",
-"eeSteamVPS",
+registerddSteamVPS("xlddSteamVPS",
+"ddSteamVPS",
 "too lazy to comment this function ",
 LibraryName,
-eeSteamVPSArgs,
+ddSteamVPSArgs,
 2
 ,false
 ,false
@@ -637,7 +637,7 @@ eeSteamVPSArgs,
 extern "C"
 {
 LPXLFOPER EXCEL_EXPORT
-xleeSteamVPS(
+xlddSteamVPS(
 double p,
 double s)
 {
@@ -649,7 +649,7 @@ EXCEL_BEGIN;
 
 
 double result(
-	eeSteamVPS(
+	ddSteamVPS(
 		p,
 		s)
 	);
@@ -665,17 +665,17 @@ EXCEL_END
 namespace
 {
 XLRegistration::Arg
-eeSteamRhoPTArgs[]=
+ddSteamRhoPTArgs[]=
 {
 { "p","too lazy to comment this one ","B"},
 { "t","too lazy to comment this one ","B"}
 };
   XLRegistration::XLFunctionRegistrationHelper
-registereeSteamRhoPT("xleeSteamRhoPT",
-"eeSteamRhoPT",
+registerddSteamRhoPT("xlddSteamRhoPT",
+"ddSteamRhoPT",
 "too lazy to comment this function ",
 LibraryName,
-eeSteamRhoPTArgs,
+ddSteamRhoPTArgs,
 2
 ,false
 ,false
@@ -692,7 +692,7 @@ eeSteamRhoPTArgs,
 extern "C"
 {
 LPXLFOPER EXCEL_EXPORT
-xleeSteamRhoPT(
+xlddSteamRhoPT(
 double p,
 double t)
 {
@@ -704,7 +704,7 @@ EXCEL_BEGIN;
 
 
 double result(
-	eeSteamRhoPT(
+	ddSteamRhoPT(
 		p,
 		t)
 	);
@@ -720,17 +720,17 @@ EXCEL_END
 namespace
 {
 XLRegistration::Arg
-eeSteamRhoPHArgs[]=
+ddSteamRhoPHArgs[]=
 {
 { "p","too lazy to comment this one ","B"},
 { "h","too lazy to comment this one ","B"}
 };
   XLRegistration::XLFunctionRegistrationHelper
-registereeSteamRhoPH("xleeSteamRhoPH",
-"eeSteamRhoPH",
+registerddSteamRhoPH("xlddSteamRhoPH",
+"ddSteamRhoPH",
 "too lazy to comment this function ",
 LibraryName,
-eeSteamRhoPHArgs,
+ddSteamRhoPHArgs,
 2
 ,false
 ,false
@@ -747,7 +747,7 @@ eeSteamRhoPHArgs,
 extern "C"
 {
 LPXLFOPER EXCEL_EXPORT
-xleeSteamRhoPH(
+xlddSteamRhoPH(
 double p,
 double h)
 {
@@ -759,7 +759,7 @@ EXCEL_BEGIN;
 
 
 double result(
-	eeSteamRhoPH(
+	ddSteamRhoPH(
 		p,
 		h)
 	);
@@ -775,17 +775,17 @@ EXCEL_END
 namespace
 {
 XLRegistration::Arg
-eeSteamRhoPSArgs[]=
+ddSteamRhoPSArgs[]=
 {
 { "p","too lazy to comment this one ","B"},
 { "s","too lazy to comment this one ","B"}
 };
   XLRegistration::XLFunctionRegistrationHelper
-registereeSteamRhoPS("xleeSteamRhoPS",
-"eeSteamRhoPS",
+registerddSteamRhoPS("xlddSteamRhoPS",
+"ddSteamRhoPS",
 "too lazy to comment this function ",
 LibraryName,
-eeSteamRhoPSArgs,
+ddSteamRhoPSArgs,
 2
 ,false
 ,false
@@ -802,7 +802,7 @@ eeSteamRhoPSArgs,
 extern "C"
 {
 LPXLFOPER EXCEL_EXPORT
-xleeSteamRhoPS(
+xlddSteamRhoPS(
 double p,
 double s)
 {
@@ -814,7 +814,7 @@ EXCEL_BEGIN;
 
 
 double result(
-	eeSteamRhoPS(
+	ddSteamRhoPS(
 		p,
 		s)
 	);
@@ -830,17 +830,17 @@ EXCEL_END
 namespace
 {
 XLRegistration::Arg
-eeSteamSPTArgs[]=
+ddSteamSPTArgs[]=
 {
 { "p","too lazy to comment this one ","B"},
 { "t","too lazy to comment this one ","B"}
 };
   XLRegistration::XLFunctionRegistrationHelper
-registereeSteamSPT("xleeSteamSPT",
-"eeSteamSPT",
+registerddSteamSPT("xlddSteamSPT",
+"ddSteamSPT",
 "too lazy to comment this function ",
 LibraryName,
-eeSteamSPTArgs,
+ddSteamSPTArgs,
 2
 ,false
 ,false
@@ -857,7 +857,7 @@ eeSteamSPTArgs,
 extern "C"
 {
 LPXLFOPER EXCEL_EXPORT
-xleeSteamSPT(
+xlddSteamSPT(
 double p,
 double t)
 {
@@ -869,7 +869,7 @@ EXCEL_BEGIN;
 
 
 double result(
-	eeSteamSPT(
+	ddSteamSPT(
 		p,
 		t)
 	);
@@ -885,17 +885,17 @@ EXCEL_END
 namespace
 {
 XLRegistration::Arg
-eeSteamSPHArgs[]=
+ddSteamSPHArgs[]=
 {
 { "p","too lazy to comment this one ","B"},
 { "h","too lazy to comment this one ","B"}
 };
   XLRegistration::XLFunctionRegistrationHelper
-registereeSteamSPH("xleeSteamSPH",
-"eeSteamSPH",
+registerddSteamSPH("xlddSteamSPH",
+"ddSteamSPH",
 "too lazy to comment this function ",
 LibraryName,
-eeSteamSPHArgs,
+ddSteamSPHArgs,
 2
 ,false
 ,false
@@ -912,7 +912,7 @@ eeSteamSPHArgs,
 extern "C"
 {
 LPXLFOPER EXCEL_EXPORT
-xleeSteamSPH(
+xlddSteamSPH(
 double p,
 double h)
 {
@@ -924,7 +924,7 @@ EXCEL_BEGIN;
 
 
 double result(
-	eeSteamSPH(
+	ddSteamSPH(
 		p,
 		h)
 	);
@@ -940,17 +940,17 @@ EXCEL_END
 namespace
 {
 XLRegistration::Arg
-eeSteamCpPTArgs[]=
+ddSteamCpPTArgs[]=
 {
 { "p","too lazy to comment this one ","B"},
 { "t","too lazy to comment this one ","B"}
 };
   XLRegistration::XLFunctionRegistrationHelper
-registereeSteamCpPT("xleeSteamCpPT",
-"eeSteamCpPT",
+registerddSteamCpPT("xlddSteamCpPT",
+"ddSteamCpPT",
 "too lazy to comment this function ",
 LibraryName,
-eeSteamCpPTArgs,
+ddSteamCpPTArgs,
 2
 ,false
 ,false
@@ -967,7 +967,7 @@ eeSteamCpPTArgs,
 extern "C"
 {
 LPXLFOPER EXCEL_EXPORT
-xleeSteamCpPT(
+xlddSteamCpPT(
 double p,
 double t)
 {
@@ -979,7 +979,7 @@ EXCEL_BEGIN;
 
 
 double result(
-	eeSteamCpPT(
+	ddSteamCpPT(
 		p,
 		t)
 	);
@@ -995,17 +995,17 @@ EXCEL_END
 namespace
 {
 XLRegistration::Arg
-eeSteamCpPHArgs[]=
+ddSteamCpPHArgs[]=
 {
 { "p","too lazy to comment this one ","B"},
 { "h","too lazy to comment this one ","B"}
 };
   XLRegistration::XLFunctionRegistrationHelper
-registereeSteamCpPH("xleeSteamCpPH",
-"eeSteamCpPH",
+registerddSteamCpPH("xlddSteamCpPH",
+"ddSteamCpPH",
 "too lazy to comment this function ",
 LibraryName,
-eeSteamCpPHArgs,
+ddSteamCpPHArgs,
 2
 ,false
 ,false
@@ -1022,7 +1022,7 @@ eeSteamCpPHArgs,
 extern "C"
 {
 LPXLFOPER EXCEL_EXPORT
-xleeSteamCpPH(
+xlddSteamCpPH(
 double p,
 double h)
 {
@@ -1034,7 +1034,7 @@ EXCEL_BEGIN;
 
 
 double result(
-	eeSteamCpPH(
+	ddSteamCpPH(
 		p,
 		h)
 	);
@@ -1050,17 +1050,17 @@ EXCEL_END
 namespace
 {
 XLRegistration::Arg
-eeSteamCvPTArgs[]=
+ddSteamCvPTArgs[]=
 {
 { "p","too lazy to comment this one ","B"},
 { "t","too lazy to comment this one ","B"}
 };
   XLRegistration::XLFunctionRegistrationHelper
-registereeSteamCvPT("xleeSteamCvPT",
-"eeSteamCvPT",
+registerddSteamCvPT("xlddSteamCvPT",
+"ddSteamCvPT",
 "too lazy to comment this function ",
 LibraryName,
-eeSteamCvPTArgs,
+ddSteamCvPTArgs,
 2
 ,false
 ,false
@@ -1077,7 +1077,7 @@ eeSteamCvPTArgs,
 extern "C"
 {
 LPXLFOPER EXCEL_EXPORT
-xleeSteamCvPT(
+xlddSteamCvPT(
 double p,
 double t)
 {
@@ -1089,7 +1089,7 @@ EXCEL_BEGIN;
 
 
 double result(
-	eeSteamCvPT(
+	ddSteamCvPT(
 		p,
 		t)
 	);
@@ -1105,17 +1105,17 @@ EXCEL_END
 namespace
 {
 XLRegistration::Arg
-eeSteamCvPHArgs[]=
+ddSteamCvPHArgs[]=
 {
 { "p","too lazy to comment this one ","B"},
 { "h","too lazy to comment this one ","B"}
 };
   XLRegistration::XLFunctionRegistrationHelper
-registereeSteamCvPH("xleeSteamCvPH",
-"eeSteamCvPH",
+registerddSteamCvPH("xlddSteamCvPH",
+"ddSteamCvPH",
 "too lazy to comment this function ",
 LibraryName,
-eeSteamCvPHArgs,
+ddSteamCvPHArgs,
 2
 ,false
 ,false
@@ -1132,7 +1132,7 @@ eeSteamCvPHArgs,
 extern "C"
 {
 LPXLFOPER EXCEL_EXPORT
-xleeSteamCvPH(
+xlddSteamCvPH(
 double p,
 double h)
 {
@@ -1144,7 +1144,7 @@ EXCEL_BEGIN;
 
 
 double result(
-	eeSteamCvPH(
+	ddSteamCvPH(
 		p,
 		h)
 	);
@@ -1160,17 +1160,17 @@ EXCEL_END
 namespace
 {
 XLRegistration::Arg
-eeSteamCvPSArgs[]=
+ddSteamCvPSArgs[]=
 {
 { "p","too lazy to comment this one ","B"},
 { "s","too lazy to comment this one ","B"}
 };
   XLRegistration::XLFunctionRegistrationHelper
-registereeSteamCvPS("xleeSteamCvPS",
-"eeSteamCvPS",
+registerddSteamCvPS("xlddSteamCvPS",
+"ddSteamCvPS",
 "too lazy to comment this function ",
 LibraryName,
-eeSteamCvPSArgs,
+ddSteamCvPSArgs,
 2
 ,false
 ,false
@@ -1187,7 +1187,7 @@ eeSteamCvPSArgs,
 extern "C"
 {
 LPXLFOPER EXCEL_EXPORT
-xleeSteamCvPS(
+xlddSteamCvPS(
 double p,
 double s)
 {
@@ -1199,7 +1199,7 @@ EXCEL_BEGIN;
 
 
 double result(
-	eeSteamCvPS(
+	ddSteamCvPS(
 		p,
 		s)
 	);
@@ -1215,17 +1215,17 @@ EXCEL_END
 namespace
 {
 XLRegistration::Arg
-eeSteamVisPTArgs[]=
+ddSteamVisPTArgs[]=
 {
 { "p","too lazy to comment this one ","B"},
 { "t","too lazy to comment this one ","B"}
 };
   XLRegistration::XLFunctionRegistrationHelper
-registereeSteamVisPT("xleeSteamVisPT",
-"eeSteamVisPT",
+registerddSteamVisPT("xlddSteamVisPT",
+"ddSteamVisPT",
 "too lazy to comment this function ",
 LibraryName,
-eeSteamVisPTArgs,
+ddSteamVisPTArgs,
 2
 ,false
 ,false
@@ -1242,7 +1242,7 @@ eeSteamVisPTArgs,
 extern "C"
 {
 LPXLFOPER EXCEL_EXPORT
-xleeSteamVisPT(
+xlddSteamVisPT(
 double p,
 double t)
 {
@@ -1254,7 +1254,7 @@ EXCEL_BEGIN;
 
 
 double result(
-	eeSteamVisPT(
+	ddSteamVisPT(
 		p,
 		t)
 	);
@@ -1270,17 +1270,17 @@ EXCEL_END
 namespace
 {
 XLRegistration::Arg
-eeSteamVisPHArgs[]=
+ddSteamVisPHArgs[]=
 {
 { "p","too lazy to comment this one ","B"},
 { "h","too lazy to comment this one ","B"}
 };
   XLRegistration::XLFunctionRegistrationHelper
-registereeSteamVisPH("xleeSteamVisPH",
-"eeSteamVisPH",
+registerddSteamVisPH("xlddSteamVisPH",
+"ddSteamVisPH",
 "too lazy to comment this function ",
 LibraryName,
-eeSteamVisPHArgs,
+ddSteamVisPHArgs,
 2
 ,false
 ,false
@@ -1297,7 +1297,7 @@ eeSteamVisPHArgs,
 extern "C"
 {
 LPXLFOPER EXCEL_EXPORT
-xleeSteamVisPH(
+xlddSteamVisPH(
 double p,
 double h)
 {
@@ -1309,7 +1309,7 @@ EXCEL_BEGIN;
 
 
 double result(
-	eeSteamVisPH(
+	ddSteamVisPH(
 		p,
 		h)
 	);
@@ -1325,17 +1325,17 @@ EXCEL_END
 namespace
 {
 XLRegistration::Arg
-eeSteamVisPSArgs[]=
+ddSteamVisPSArgs[]=
 {
 { "p","too lazy to comment this one ","B"},
 { "s","too lazy to comment this one ","B"}
 };
   XLRegistration::XLFunctionRegistrationHelper
-registereeSteamVisPS("xleeSteamVisPS",
-"eeSteamVisPS",
+registerddSteamVisPS("xlddSteamVisPS",
+"ddSteamVisPS",
 "too lazy to comment this function ",
 LibraryName,
-eeSteamVisPSArgs,
+ddSteamVisPSArgs,
 2
 ,false
 ,false
@@ -1352,7 +1352,7 @@ eeSteamVisPSArgs,
 extern "C"
 {
 LPXLFOPER EXCEL_EXPORT
-xleeSteamVisPS(
+xlddSteamVisPS(
 double p,
 double s)
 {
@@ -1364,7 +1364,7 @@ EXCEL_BEGIN;
 
 
 double result(
-	eeSteamVisPS(
+	ddSteamVisPS(
 		p,
 		s)
 	);
@@ -1380,17 +1380,17 @@ EXCEL_END
 namespace
 {
 XLRegistration::Arg
-eeSteamQPHArgs[]=
+ddSteamQPHArgs[]=
 {
 { "p","too lazy to comment this one ","B"},
 { "h","too lazy to comment this one ","B"}
 };
   XLRegistration::XLFunctionRegistrationHelper
-registereeSteamQPH("xleeSteamQPH",
-"eeSteamQPH",
+registerddSteamQPH("xlddSteamQPH",
+"ddSteamQPH",
 "too lazy to comment this function ",
 LibraryName,
-eeSteamQPHArgs,
+ddSteamQPHArgs,
 2
 ,false
 ,false
@@ -1407,7 +1407,7 @@ eeSteamQPHArgs,
 extern "C"
 {
 LPXLFOPER EXCEL_EXPORT
-xleeSteamQPH(
+xlddSteamQPH(
 double p,
 double h)
 {
@@ -1419,7 +1419,7 @@ EXCEL_BEGIN;
 
 
 double result(
-	eeSteamQPH(
+	ddSteamQPH(
 		p,
 		h)
 	);
@@ -1435,17 +1435,17 @@ EXCEL_END
 namespace
 {
 XLRegistration::Arg
-eeSteamQPSArgs[]=
+ddSteamQPSArgs[]=
 {
 { "p","too lazy to comment this one ","B"},
 { "s","too lazy to comment this one ","B"}
 };
   XLRegistration::XLFunctionRegistrationHelper
-registereeSteamQPS("xleeSteamQPS",
-"eeSteamQPS",
+registerddSteamQPS("xlddSteamQPS",
+"ddSteamQPS",
 "too lazy to comment this function ",
 LibraryName,
-eeSteamQPSArgs,
+ddSteamQPSArgs,
 2
 ,false
 ,false
@@ -1462,7 +1462,7 @@ eeSteamQPSArgs,
 extern "C"
 {
 LPXLFOPER EXCEL_EXPORT
-xleeSteamQPS(
+xlddSteamQPS(
 double p,
 double s)
 {
@@ -1474,7 +1474,7 @@ EXCEL_BEGIN;
 
 
 double result(
-	eeSteamQPS(
+	ddSteamQPS(
 		p,
 		s)
 	);

@@ -23,7 +23,7 @@ MyTranspose(MyMatrix input // input matrix
 }
 
 
-std::string eeCheckVersion() 
+std::string ddCheckVersion() 
 {
 	std::string version = "version : 2023-10-30";
 	return version;
@@ -52,7 +52,7 @@ std::string eeCheckVersion()
 
 // Description = "Get Sat. Temp_'C with P _IF97")
 // parameter (Name = "pressure", Description = "bara") 
-double eeSteamTP(double p)
+double ddSteamTP(double p)
 {
 	double tmp = Tsat97(p * 1e5);
 	return tmp - 273.15;
@@ -61,7 +61,7 @@ double eeSteamTP(double p)
 // Description = "Get Temp_'C with PT _IF97")
 // parameter (Name = "pressure", Description = "bara") 
 // parameter (Name = "enthalpy", Description = "kJ/kg") 
-double eeSteamTPH(double p, double h)
+double ddSteamTPH(double p, double h)
 {
 	double tmp = T_phmass(p * 1e5, h * 1000);
 	return tmp - 273.15;
@@ -70,7 +70,7 @@ double eeSteamTPH(double p, double h)
 // Description = "Get Temp_'C with PS _IF97")
 // parameter (Name = "pressure", Description = "bara") 
 // parameter (Name = "entropy", Description = "kJ/kg-K") 
-double eeSteamTPS(double p, double s)
+double ddSteamTPS(double p, double s)
 {
 	double tmp = T_psmass(p * 1e5, s);
 	return tmp - 273.15;
@@ -79,7 +79,7 @@ double eeSteamTPS(double p, double s)
 // Description = "Get Temp_'C with HS _IF97")
 // parameter (Name = "enthalpy", Description = "kJ/kg") 
 // parameter (Name = "entropy", Description = "kJ/kg-K") 
-double eeSteamTHS(double h, double s)
+double ddSteamTHS(double h, double s)
 {
 	double tmp = T_hsmass(h * 1000, s);
 	return tmp - 273.15;
@@ -87,7 +87,7 @@ double eeSteamTHS(double h, double s)
 
 // Description = "Get Sat.Pressure_bara with T _IF97")
 // parameter (Name = "temperature", Description = "'C") 
-double eeSteamPT(double t)
+double ddSteamPT(double t)
 {
 	double tmp = psat97(t + 273.15);
 	return tmp / 1e6;
@@ -96,7 +96,7 @@ double eeSteamPT(double t)
 // Description = "Get Enhalpy_kJ/kg with PT _IF97")
 // parameter (Name = "pressure", Description = "bara") 
 // parameter (Name = "temperature", Description = "'C")
-double eeSteamHPT(double p, double t)
+double ddSteamHPT(double p, double t)
 {
 	double tmp = hmass_Tp(t + 273.15, p * 1e5);
 	return tmp / 1000;
@@ -105,7 +105,7 @@ double eeSteamHPT(double p, double t)
 // Description = "Get Enhalpy_kJ/kg with T _IF97")
 // parameter (Name = "pressure", Description = "bara") 
 // parameter (Name = "entropy", Description = "kJ/kg-K") 
-double eeSteamHPS(double p, double s)
+double ddSteamHPS(double p, double s)
 {
 	//double tmp = h_ps(p, s);
 
@@ -117,7 +117,7 @@ double eeSteamHPS(double p, double s)
 // Description = "Get Enhalpy_kJ/kg with PQ _IF97")
 // parameter (Name = "pressure", Description = "bara") 
 // parameter (Name = "Dryness fraction", Description = " 0.0~1.0") 
-double eeSteamHPQ(double p, double drynessX)
+double ddSteamHPQ(double p, double drynessX)
 {
 	double tmp = hmass_pQ(p * 1e5, drynessX);
 	return tmp / 1000;
@@ -126,7 +126,7 @@ double eeSteamHPQ(double p, double drynessX)
 // Description = "Get Volume_m3/kg with PT _IF97")
 // parameter (Name = "pressure", Description = "bara") 
 // parameter (Name = "temperature", Description = "'C") 
-double eeSteamVPT(double p, double t)
+double ddSteamVPT(double p, double t)
 {
 	double tmp = 1 / rhomass_Tp(t + 273.15, p * 1e5);
 	return tmp;
@@ -135,7 +135,7 @@ double eeSteamVPT(double p, double t)
 // Description = "Get Volume_m3/kg with PH _IF97")
 // parameter (Name = "pressure", Description = "bara") 
 // parameter (Name = "enthalpy", Description = "kJ/kg") 
-double eeSteamVPH(double p, double h)
+double ddSteamVPH(double p, double h)
 {
 	double tmp = 1 / rhomass_phmass(p * 1e5, h * 1000);
 	return tmp;
@@ -144,7 +144,7 @@ double eeSteamVPH(double p, double h)
 // Description = "Get Volume_m3/kg with PS _IF97")
 // parameter (Name = "pressure", Description = "bara") 
 // parameter (Name = "entropy", Description = "kJ/kg-K") 
-double eeSteamVPS(double p, double s)
+double ddSteamVPS(double p, double s)
 {
 	double tmp = 1 / rhomass_psmass(p * 1e5, s);
 	return tmp;
@@ -154,7 +154,7 @@ double eeSteamVPS(double p, double s)
 // Description = "Get Density_kg/m3 with PT _IF97")
 // parameter (Name = "pressure", Description = "bara") 
 // parameter (Name = "temperature", Description = "'C") 
-double eeSteamRhoPT(double p, double t)
+double ddSteamRhoPT(double p, double t)
 {
 	double tmp = rhomass_Tp(t + 273.15, p * 1e5);
 	return tmp;
@@ -163,7 +163,7 @@ double eeSteamRhoPT(double p, double t)
 // Description = "Get Density_kg/m3 with PH _IF97")
 // parameter (Name = "pressure", Description = "bara") 
 // parameter (Name = "enthalpy", Description = "kJ/kg") 
-double eeSteamRhoPH(double p, double h)
+double ddSteamRhoPH(double p, double h)
 {
 	double tmp = rhomass_phmass(p * 1e5, h * 1000);
 	return tmp;
@@ -172,7 +172,7 @@ double eeSteamRhoPH(double p, double h)
 // Description = "Get Density_kg/m3 with PS _IF97")
 // parameter (Name = "pressure", Description = "bara") 
 // parameter (Name = "entropy", Description = "kJ/kg-K") 
-double eeSteamRhoPS(double p, double s)
+double ddSteamRhoPS(double p, double s)
 {
 	double tmp = rhomass_psmass(p * 1e5, s);
 	return tmp;
@@ -181,7 +181,7 @@ double eeSteamRhoPS(double p, double s)
 // Description = "Get Entropy_kJ/kg-K with PT _IF97")
 // parameter (Name = "pressure", Description = "bara") 
 // parameter (Name = "temperature", Description = "'C") 
-double eeSteamSPT(double p, double t)
+double ddSteamSPT(double p, double t)
 {
 	double tmp = smass_Tp(t + 273.15, p * 1e5);
 	return tmp / 1000;
@@ -190,7 +190,7 @@ double eeSteamSPT(double p, double t)
 // Description = "Get Entropy_kJ/kg-K with PH _IF97")
 // parameter (Name = "pressure", Description = "bara") 
 // parameter (Name = "enthalpy", Description = "kJ/kg") 
-double eeSteamSPH(double p, double h)
+double ddSteamSPH(double p, double h)
 {
 	double t = T_phmass(p * 1e5, h * 1000);
 	double tmp = smass_Tp(t, p * 1e5);
@@ -200,7 +200,7 @@ double eeSteamSPH(double p, double h)
 // Description = "Get Cp_kJ/kg-C with PT _IF97")
 // parameter (Name = "pressure", Description = "bara") 
 // parameter (Name = "temperature", Description = "'C") 
-double eeSteamCpPT(double p, double t)
+double ddSteamCpPT(double p, double t)
 {
 	double tmp = cpmass_Tp(t + 273.15, p * 1e5);
 	return tmp / 1000;
@@ -209,7 +209,7 @@ double eeSteamCpPT(double p, double t)
 // Description = "Get Cp_kJ/kg-C with PH _IF97")
 // parameter (Name = "pressure", Description = "bara") 
 // parameter (Name = "enthalpy", Description = "kJ/kg") 
-double eeSteamCpPH(double p, double h)
+double ddSteamCpPH(double p, double h)
 {
 	double t = T_phmass(p * 1e5, h * 1000);
 	double tmp = cpmass_Tp(t, p * 1e5);
@@ -219,7 +219,7 @@ double eeSteamCpPH(double p, double h)
 // Description = "Get Cv_kJ/kg-C with PT _IF97")
 // parameter (Name = "pressure", Description = "bara") 
 // parameter (Name = "temperature", Description = "'C") 
-double eeSteamCvPT(double p, double t)
+double ddSteamCvPT(double p, double t)
 {
 	double tmp = cvmass_Tp(t + 273.15, p * 1e5);
 	return tmp / 1000;
@@ -228,7 +228,7 @@ double eeSteamCvPT(double p, double t)
 // Description = "Get Cv_kJ/kg-C with PH _IF97")
 // parameter (Name = "pressure", Description = "bara") 
 // parameter (Name = "enthalpy", Description = "kJ/kg") 
-double eeSteamCvPH(double p, double h)
+double ddSteamCvPH(double p, double h)
 {
 	double t = T_phmass(p * 1e5, h * 1000);
 	double tmp = cvmass_Tp(t, p * 1e5);
@@ -238,7 +238,7 @@ double eeSteamCvPH(double p, double h)
 // Description = "Get Cv_kJ/kg-C with PS _IF97")
 // parameter (Name = "pressure", Description = "bara") 
 // parameter (Name = "entropy", Description = "kJ/kg-K") 
-double eeSteamCvPS(double p, double s)
+double ddSteamCvPS(double p, double s)
 {
 	double t = T_psmass(p * 1e5, s);
 	double tmp = cvmass_Tp(t, p * 1e5);
@@ -248,7 +248,7 @@ double eeSteamCvPS(double p, double s)
 // Description = "Get Dyn.Viscosity_Pa-s with PT _IF97")
 // parameter (Name = "pressure", Description = "bara") 
 // parameter (Name = "temperature", Description = "'C") 
-double eeSteamVisPT(double p, double t)
+double ddSteamVisPT(double p, double t)
 {
 	double tmp = visc_Tp(t + 273.15, p * 1e5);
 	return tmp;
@@ -257,7 +257,7 @@ double eeSteamVisPT(double p, double t)
 // Description = "Get Dyn.Viscosity_Pa-s with PH _IF97")
 // parameter (Name = "pressure", Description = "bara") 
 // parameter (Name = "enthalpy", Description = "kJ/kg") 
-double eeSteamVisPH(double p, double h)
+double ddSteamVisPH(double p, double h)
 {
 	double rho = rhomass_phmass(p * 1e5, h * 1000);
 	double t = T_phmass(p * 1e5, h * 1000);
@@ -269,7 +269,7 @@ double eeSteamVisPH(double p, double h)
 // Description = "Get Dyn.Viscosity_Pa-s with PS _IF97")
 // parameter (Name = "pressure", Description = "bara") 
 // parameter (Name = "entropy", Description = "kJ/kg-K") 
-double eeSteamVisPS(double p, double s)
+double ddSteamVisPS(double p, double s)
 {
 	double rho = rhomass_psmass(p * 1e5, s);
 	double t = T_psmass(p * 1e5, s);
@@ -280,7 +280,7 @@ double eeSteamVisPS(double p, double s)
 // Description = "Get Vapor Fraction with PH _IF97")
 // parameter (Name = "pressure", Description = "bara") 
 // parameter (Name = "enthalpy", Description = "kJ/kg") 
-double eeSteamQPH(double p, double h)
+double ddSteamQPH(double p, double h)
 {
 	double tmp = Q_phmass(p * 1e5, h * 1000);
 	return tmp;
@@ -288,7 +288,7 @@ double eeSteamQPH(double p, double h)
 // Description = "Get Vapor Fraction with PS _IF97")
 // parameter (Name = "pressure", Description = "bara") 
 // parameter (Name = "entropy", Description = "kJ/kg-K") 
-double eeSteamQPS(double p, double s)
+double ddSteamQPS(double p, double s)
 {
 	double tmp = Q_psmass(p * 1e5, s);
 	return tmp;
