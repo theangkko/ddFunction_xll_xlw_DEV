@@ -179,7 +179,7 @@ double eeSteamRhoPS(double p, double s)
 double eeSteamSPT(double p, double t)
 {
 	double tmp = smass_Tp(t + 273.15, p * 1e5);
-	return tmp;
+	return tmp / 1000;
 }
 
 // Description = "Get Entropy_kJ/kg-K with PH _IF97")
@@ -189,7 +189,7 @@ double eeSteamSPH(double p, double h)
 {
 	double t = T_phmass(p * 1e5, h * 1000);
 	double tmp = smass_Tp(t, p * 1e5);
-	return tmp;
+	return tmp / 1000;
 }
 
 // Description = "Get Cp_kJ/kg-C with PT _IF97")
@@ -260,7 +260,7 @@ double eeSteamVisPH(double p, double h)
 	double tmp = visc_TRho(t, rho);
 	return tmp;
 }
-fv
+
 // Description = "Get Dyn.Viscosity_Pa-s with PS _IF97")
 // parameter (Name = "pressure", Description = "bara") 
 // parameter (Name = "entropy", Description = "kJ/kg-K") 
