@@ -37,7 +37,7 @@ std::string eeCheckVersion()
 //	umass_Tp(double T, double p)		//mass internal energy[J / kg] as a function of T[K] and p[Pa]
 //	cpmass_Tp(double T, double p)		//mass constant - pressure specific heat[J / kg / K] as a function of T[K] and p[Pa]
 //	cvmass_Tp(double T, double p)		//mass constant - volume specific heat[J / kg / K] as a function of T[K] and p[Pa]
-//	drhodp_Tp(double T, double p)		//[d(rho) / d(p)] T[kg / m©ø/ Pa] as a function of T[K] and p[Pa]
+//	drhodp_Tp(double T, double p)		//[d(rho) / d(p)] T[kg / mÂ©Ã¸/ Pa] as a function of T[K] and p[Pa]
 //	speed_sound_Tp(double T, double p)	//speed of sound[m / s] as a function of T[K] and p[Pa]
 
 
@@ -123,7 +123,7 @@ double eeSteamHPQ(double p, double drynessX)
 // parameter (Name = "temperature", Description = "'C") 
 double eeSteamVPT(double p, double t)
 {
-	double tmp = 1/ rhomass_Tp(t + 273.15, p * 1e5);
+	double tmp = rhomass_Tp(t + 273.15, p * 1e5);
 	return tmp;
 }
 
@@ -260,7 +260,7 @@ double eeSteamVisPH(double p, double h)
 	double tmp = visc_TRho(t, rho);
 	return tmp;
 }
-
+fv
 // Description = "Get Dyn.Viscosity_Pa-s with PS _IF97")
 // parameter (Name = "pressure", Description = "bara") 
 // parameter (Name = "entropy", Description = "kJ/kg-K") 
