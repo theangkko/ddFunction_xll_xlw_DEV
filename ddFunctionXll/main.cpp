@@ -43,8 +43,8 @@ std::string ddCheckVersion()
 
 // pressure		: Pa			, bara to Pa		* 1e5
 // temperature	: K				, C to K			+ 273.15
-// Enthalpy		: J/kg			, J/kg to kJ/kg		/1000
-// Entropy		: J / kg / K	, J/kg/K to kJ/kgK	/1000
+// Enthalpy		: J/kg			, J/kg to kJ/kg		* 1000
+// Entropy		: J / kg / K	, J/kg/K to kJ/kgK	* 1000
 
 
 // Number of function : 26ea
@@ -72,7 +72,7 @@ double ddSteamTPH(double p, double h)
 // parameter (Name = "entropy", Description = "kJ/kg-K") 
 double ddSteamTPS(double p, double s)
 {
-	double tmp = T_psmass(p * 1e5, s);
+	double tmp = T_psmass(p * 1e5, s * 1000);
 	return tmp - 273.15;
 }
 
@@ -81,7 +81,7 @@ double ddSteamTPS(double p, double s)
 // parameter (Name = "entropy", Description = "kJ/kg-K") 
 double ddSteamTHS(double h, double s)
 {
-	double tmp = T_hsmass(h * 1000, s);
+	double tmp = T_hsmass(h * 1000, s * 1000);
 	return tmp - 273.15;
 }
 
@@ -109,7 +109,7 @@ double ddSteamHPS(double p, double s)
 {
 	//double tmp = h_ps(p, s);
 
-	double t = T_psmass(p * 1e5, s);
+	double t = T_psmass(p * 1e5, s * 1000);
 	double tmp = hmass_Tp(t, p * 1e5);
 	return tmp / 1000;
 }
@@ -146,7 +146,7 @@ double ddSteamVPH(double p, double h)
 // parameter (Name = "entropy", Description = "kJ/kg-K") 
 double ddSteamVPS(double p, double s)
 {
-	double tmp = 1 / rhomass_psmass(p * 1e5, s);
+	double tmp = 1 / rhomass_psmass(p * 1e5, s * 1000);
 	return tmp;
 }
 
@@ -174,7 +174,7 @@ double ddSteamRhoPH(double p, double h)
 // parameter (Name = "entropy", Description = "kJ/kg-K") 
 double ddSteamRhoPS(double p, double s)
 {
-	double tmp = rhomass_psmass(p * 1e5, s);
+	double tmp = rhomass_psmass(p * 1e5, s * 1000);
 	return tmp;
 }
 
@@ -240,7 +240,7 @@ double ddSteamCvPH(double p, double h)
 // parameter (Name = "entropy", Description = "kJ/kg-K") 
 double ddSteamCvPS(double p, double s)
 {
-	double t = T_psmass(p * 1e5, s);
+	double t = T_psmass(p * 1e5, s * 1000);
 	double tmp = cvmass_Tp(t, p * 1e5);
 	return tmp / 1000;
 }
@@ -271,8 +271,8 @@ double ddSteamVisPH(double p, double h)
 // parameter (Name = "entropy", Description = "kJ/kg-K") 
 double ddSteamVisPS(double p, double s)
 {
-	double rho = rhomass_psmass(p * 1e5, s);
-	double t = T_psmass(p * 1e5, s);
+	double rho = rhomass_psmass(p * 1e5, s * 1000);
+	double t = T_psmass(p * 1e5, s * 1000);
 	double tmp = visc_TRho(t, rho);
 	return tmp;
 }
@@ -290,6 +290,6 @@ double ddSteamQPH(double p, double h)
 // parameter (Name = "entropy", Description = "kJ/kg-K") 
 double ddSteamQPS(double p, double s)
 {
-	double tmp = Q_psmass(p * 1e5, s);
+	double tmp = Q_psmass(p * 1e5, s * 1000);
 	return tmp;
 }
