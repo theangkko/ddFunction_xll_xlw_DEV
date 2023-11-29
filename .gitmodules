@@ -1,4 +1,0 @@
-[submodule "wixinstaller"]
-	path = wixinstaller
-	url = https://github.com/theangkko/WiXInstaller-fork.git
-	branch = eefunctionxll
