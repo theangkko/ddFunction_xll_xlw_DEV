@@ -1,0 +1,51 @@
+# /x64
+/x32
+
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+
+# Executables
+*.out
+*.app
+
+# Visual studio stuff
+.vs
+eeFunctionXll/x64/
+build/
+packages/
+graveyard/
+*.vcxproj.user
+.vscode
+
+# Other caches
+__pycache__
+.ipynb_checkpoints
+
+# External libraries
+# /external/IF97/
+/docs/source/_build
+
+~$*
