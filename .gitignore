@@ -1,5 +1,9 @@
-# /x64
+/x64
 /x32
+/Win32
+
+ddFunctionXll/debug/*
+ddFunctionXll/x64/*
 
 # Prerequisites
 *.d
