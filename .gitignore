@@ -31,11 +31,11 @@
 
 # Visual studio stuff
 .vs
-ddFunctionXll/**/x64/*
+#ddFunctionXll/**/x64/*
 Debug/*
 !Debug/*.xll
-x64/Release/*
-!x64/Release/*.xll
+!x64/Release/*
+
 build/
 packages/*
 !packages/*.lib
