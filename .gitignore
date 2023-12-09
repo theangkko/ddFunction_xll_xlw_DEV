@@ -34,7 +34,7 @@
 ddFunctionXll/**/x64/*
 Debug/*
 !Debug/*.xll
-x64/**
+x64/**/*
 !x64/**/*.xll
 build/
 packages/*
