@@ -31,7 +31,7 @@
 
 # Visual studio stuff
 .vs
-#ddFunctionXll/**/x64/*
+#ddFunctionXll/**
 Debug/*
 !Debug/*.xll
 !x64/Release/*
