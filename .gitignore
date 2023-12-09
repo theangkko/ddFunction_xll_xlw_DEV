@@ -1,5 +1,3 @@
-# /x64
-/x32
 
 # Prerequisites
 *.d
@@ -33,9 +31,15 @@
 
 # Visual studio stuff
 .vs
-eeFunctionXll/x64/
+ddFunctionXll/**/x64/*
+Debug/*
+!Debug/*.xll
+x64/*
+!x64/**/*.xll
 build/
-packages/
+packages/*
+!packages/xlw.23.10.12-rc/*
+
 graveyard/
 *.vcxproj.user
 .vscode
